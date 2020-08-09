@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+:root {
+    --transparent: .75;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://wileyyugioh.github.io/MAL-CSS/Anime-Scenery-Wallpaper-Amazings-min-compressor%202.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+tbody {
+    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, var(--transparent) );
+}
+
+.header_completed tr {
+    font-size: 1.2rem;
+    background-color: rgb(46, 81, 162);
+    background-color: rgba(46, 81, 162, var(--transparent) );
+    color: #FFFFFF;
+}
+
+.category_totals {
+    color: #7FDBFF;
+    background-color: rgb(0, 31, 63);
+    background-color: rgba(0, 31, 63, var(--transparent) );
+}
+
+#mal_control_strip,
+#list_surround {
+    width: auto !important;
+    margin-left: 170px !important;
+    margin-right: 170px !important;
+}
+
+#mal_control_strip {
+    height: 64px;
+    background: none !important;
+}
+
+#mal_control_strip tbody {
+    background-color: #FFFFFF;
+}
+
+#grand_totals {
+    background-color: rgb(34, 34, 51);
+    background-color: rgba(34, 34, 51, var(--transparent) );
+    color: #AACCFF;
+}
+
+.status_selected,
+#list_surround > table:first-of-type td:hover {
+    background-color: rgb(27, 67, 118);
+    background-color: rgba(27, 67, 118, var(--transparent) );
+}
+
+#list_surround > table:first-of-type td:hover {
+    color: #D8D8D8;
+}
+
+.status_selected {
+    color: #FFFFFF;
+}
+
+.status_not_selected {
+    color: #484848;
+}
+
+#list_surround table {
+    table-layout: fixed;
+}
+
+#list_surround > table:first-of-type td {
+    padding: 10px 0px;
+}
+
+#list_surround table td,
+#grand_totals {
+    padding: 0 10px;
+}
+
+#copyright {
+    visibility: visible;
+}
+
+#mal_cs_otherlinks {
+    display: none;
+}
+
+#mal_cs_pic a img {
+    display: none;
+}
+
+#mal_cs_pic a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#mal_cs_pic a:after {
+    content: "";
+    background: url("https://cdn.myanimelist.net/images/mal-logo-xsmall@2x.png") no-repeat content-box;
+    background-size: 90%;
+    background-position: center;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0.25rem 0;
+}
+
+#mal_cs_pic {
+    width: 358px !important;
+    height: 64px !important;
+    padding: 0 !important;
+    background-color: #FFFFFF;
+    border-right: initial !important;
+    float: left;
+}
+
+#mal_cs_powered {
+    top: 0px !important;
+    right: 0 !important;
+    left: 0 !important;
+    margin-left: 358px;
+    position: initial !important;
+    width: 100%;
+}
+
+#mal_cs_powered a:nth-child(1) { 
+    display: none;
+}
+
+#searchBox {
+    box-sizing: border-box;
+    height: 64px;
+    width: 100% !important;
+    color: #B3B3CC;
+    color: rgba(179, 179, 204, .45);
+    font-size: 25px !important;
+    border: 1px solid #6B6B6B;
+    border-radius: .75rem 0 0 .75rem;
+    outline: none;
+    background-color: #222222;
+    padding-left: 2rem;
+}
+
+#search {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 64px;
+}
+
+#search img {
+    display: none;
+}
+
+#copyright {
+    font-size: .5rem;
+}
+
+#list_surround .animetitle + small {
+    color: black !important;
+    background-color: rgb(98, 191, 237);
+    background-color: rgba(98, 191, 237, var(--transparent) );
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+td[align="center"][width="30"] {
+    background-color: rgb(33, 52, 56);
+    background-color: rgba(33, 52, 56, var(--transparent) ) !important;
+    color: #8BD2E4 !important;
+    padding: 0 !important;
+}
+
+
+tr:hover [class^=td],
+#listsurround div[id^=more] {
+    background-color: rgb(46, 65, 116);
+    background-color: rgba(46, 65, 116, var(--transparent) );
+    color: #73B9E6;
+}
+
+div [id^=more] tr:hover [class^=td]{
+    background-color: inherit !important;
+    color: inherit !important;
+}
+
+.table_header {
+    background-color: rgb(27, 67, 118);
+    background-color: rgba(27, 67, 118, var(--transparent) ) !important;
+    color: #B6B6D7 !important;
+}
+
+#mal_cs_links a {
+    color: #000000 !important;
+}
+
+.animetitle {
+    position: relative;
+}
+
+tr:hover [class^=td] .animetitle:before {
+    position: absolute;
+    content: "";
+    left: -202px;
+    top: -110px;
+    width: 150px;
+    height: 220px;
+    background-color: transparent;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    border: 2px black solid;
+}
+
